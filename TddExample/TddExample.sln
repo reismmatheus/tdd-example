@@ -3,7 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddExample.API", "src\TddExample.API\TddExample.API.csproj", "{79E2F6CD-DC09-4FD5-A815-E037D1847199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddExample.Application", "src\TddExample.Application\TddExample.Application.csproj", "{1B76BDD2-2C50-4F4B-AACD-C8FA3076676A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddExample.CrossCutting", "src\TddExample.CrossCutting\TddExample.CrossCutting.csproj", "{30F6DDAB-56C1-4501-9D72-CD4ACBDA616E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddExample.Data", "src\TddExample.Data\TddExample.Data.csproj", "{A8875463-B48E-4472-AB6A-574961CBE0F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddExample.Domain", "src\TddExample.Domain\TddExample.Domain.csproj", "{94E77250-E960-4E36-BE68-301912844AB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddExample.Service", "src\TddExample.Service\TddExample.Service.csproj", "{DBC37408-EFE2-4C97-B05B-8BB530ED6D63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddExample.Tests", "src\TddExample.Tests\TddExample.Tests.csproj", "{4BA8DAB1-A519-4B27-A5E8-8D792008185A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79E2F6CD-DC09-4FD5-A815-E037D1847199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79E2F6CD-DC09-4FD5-A815-E037D1847199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79E2F6CD-DC09-4FD5-A815-E037D1847199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79E2F6CD-DC09-4FD5-A815-E037D1847199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B76BDD2-2C50-4F4B-AACD-C8FA3076676A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B76BDD2-2C50-4F4B-AACD-C8FA3076676A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B76BDD2-2C50-4F4B-AACD-C8FA3076676A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B76BDD2-2C50-4F4B-AACD-C8FA3076676A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F6DDAB-56C1-4501-9D72-CD4ACBDA616E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F6DDAB-56C1-4501-9D72-CD4ACBDA616E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F6DDAB-56C1-4501-9D72-CD4ACBDA616E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F6DDAB-56C1-4501-9D72-CD4ACBDA616E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8875463-B48E-4472-AB6A-574961CBE0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8875463-B48E-4472-AB6A-574961CBE0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8875463-B48E-4472-AB6A-574961CBE0F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8875463-B48E-4472-AB6A-574961CBE0F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94E77250-E960-4E36-BE68-301912844AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E77250-E960-4E36-BE68-301912844AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E77250-E960-4E36-BE68-301912844AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E77250-E960-4E36-BE68-301912844AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC37408-EFE2-4C97-B05B-8BB530ED6D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC37408-EFE2-4C97-B05B-8BB530ED6D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC37408-EFE2-4C97-B05B-8BB530ED6D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC37408-EFE2-4C97-B05B-8BB530ED6D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BA8DAB1-A519-4B27-A5E8-8D792008185A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA8DAB1-A519-4B27-A5E8-8D792008185A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA8DAB1-A519-4B27-A5E8-8D792008185A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA8DAB1-A519-4B27-A5E8-8D792008185A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
