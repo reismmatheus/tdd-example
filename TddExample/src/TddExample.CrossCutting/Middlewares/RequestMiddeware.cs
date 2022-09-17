@@ -22,12 +22,6 @@ namespace TddExample.CrossCutting.Middlewares
         {
             try
             {
-                //Stopwatch watch = new Stopwatch();
-                //watch.Start();
-                // await _next(httpContext);
-                //watch.Stop();
-                //httpContext.Request.Headers.Add("x-time", watch.ElapsedMilliseconds.ToString());
-
                 Stopwatch watch = new Stopwatch();
                 watch.Start();
                 httpContext.Response.OnStarting(() =>

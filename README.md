@@ -1,6 +1,6 @@
-# TDDExample
+# TddExample
 
-A challenge for create an Api to do the proxy with FreeDictionaryApi, with the object to display the meaning of the English words.
+A example project with the TDD (Test Driven Development) architecture.
 
 ## Installation
 
@@ -14,11 +14,16 @@ Install the dependencies and devDependencies and start the server.
 
 Run in https://localhost:{port}
 
+##### Swagger
+![Endpoints](https://raw.githubusercontent.com/reismmatheus/freeDictionaryApi/develop/blob/swagger.jpeg)
+
 ## Tech
 
-- [.NET] - Framework BackEnd
-- [SQL Server] - Sql Database
-- [Swagger] - API development tool
+- [.NET 6](https://dotnet.microsoft.com/en-us/learn)
+- [SQL Server](https://learn.microsoft.com/en-us/sql/?view=sql-server-ver16)
+- [EntityFramework](https://learn.microsoft.com/en-us/aspnet/entity-framework)
+- [Swagger](https://swagger.io/)
+
 
 ## License
 
