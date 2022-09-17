@@ -1,4 +1,4 @@
-﻿using System.Data.Entity;
+﻿using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 using TddExample.Data.Context;
 using TddExample.Data.Interface;

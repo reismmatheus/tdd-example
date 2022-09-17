@@ -7,7 +7,7 @@ using TddExample.Domain;
 
 namespace TddExample.Data.Interface
 {
-    public interface IUserRepository
+    public interface IUserRepository : IRepository<User>
     {
         Task<User> AuthenticateAsync(string email, string password);
         Task<User> AddAsync(string name, string email, string password);

@@ -74,6 +74,7 @@ builder.Services.AddHttpClient();
 
 #region AutoMapper
 
+builder.Services.AddAutoMapper(typeof(AuthProfile));
 builder.Services.AddAutoMapper(typeof(UserProfile));
 
 #endregion
@@ -120,6 +121,6 @@ app.MapControllers();
 
 app.UseMiddleware<RequestMiddeware>();
 
-app.Run();
+app.Run("https://localhost:5000");
 
 public partial class Program { }
